@@ -57,7 +57,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/"
+            path="/TodoList"
             render={() => {
               return (
                 <>

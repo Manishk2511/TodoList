@@ -7,7 +7,7 @@ export default function Header(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/TodoList">
           {props.title}
         </Link>
         <button
@@ -24,7 +24,7 @@ export default function Header(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/" >
+              <Link className="nav-link active" aria-current="page" to="/TodoList" >
                 Home
               </Link>
             </li>
